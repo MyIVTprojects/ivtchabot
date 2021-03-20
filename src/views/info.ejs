@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Info page</title>
+    <meta charset="UTF-8">
+    
+    <link rel="icon" href="http://databazeturkova.unas.cz/Untitled_Artwork-2%20(kopie).png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+</head>
+    </div>
+    <br>
+    <style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+    background-color: #e9cb48;
+}
+  
+
+.button {
+    background:url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/161974384_108735364627559_7636312558706092583_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=_g9npLPxgoAAX9X4S1h&_nc_oc=AQnHU9s73ejbz8uo7idHj82USGyRQ8BOHuzq1iUZeoCzRpS6jsjz1mWwY39q7tfQ6Mw&_nc_ht=scontent-frx5-1.xx&oh=a7525aa5f3651233cc3717d69a37aff3&oe=60791425);
+  border: none;
+  color:none;
+  padding: 5px 10px;
+  text-align: center;
+  text-emphasis-color: blue;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: "Lucida Console";
+  border-radius: 25px;
+  border: 2px solid #000000;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+        body {
+          background-color:rgb(255, 255, 255);
+          margin: 0;
+          font-family: "Lucida Console", "Courier New", monospace;;
+        }
+        
+        .hero-image {
+          background-image:linear-gradient( rgba(15, 15, 17, 0.836), rgba(15, 15, 17, 0.87)), url("https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/162112368_108574541310308_5616968838528108852_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=e3f864&_nc_ohc=M6njscdlO8MAX8YKM-j&_nc_ht=scontent-frt3-2.xx&oh=3b2dfdd531857d979639750d00c87b2e&oe=6076413E");
+  height: 800px;
+  background-position: center;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+h1 {   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {   font-family: "Lucida Console", "Courier New", monospace;
+text-align: center; background-color:#333; border:1000px;
+  border: 2px solid #ffffff; color: white;
+}
+
+h2 {   font-family: "Lucida Console", "Courier New", monospace; color: rgb(255, 208, 0);
+text-align: center;
+}
+
+.hc {   font-family: "Lucida Console", "Courier New", monospace; color:rgba(255, 0, 21, 0.911);
+text-align: center;
+}
+
+.hf {   font-family: "Lucida Console", "Courier New", monospace; color:  rgb(119, 0, 255);
+text-align: center;
+}
+
+.hyz {   font-family: "Lucida Console", "Courier New", monospace; color:  rgb(130, 194, 105);
+text-align: center;
+}
+
+.pzl {font-size: 20px;
+  margin: 4px 2px;
+  top: 50%;
+  color: rgb(255, 208, 0);
+}
+.pz {  font-size: 20px;
+  margin: 4px 2px; top: 50%; color: rgb(130, 194, 105);
+
+}
+.pc { font-size: 20px;
+  margin: 4px 2px;top: 50%;color: rgba(255, 0, 21, 0.911);
+
+}
+.pf { font-size: 20px;
+  margin: 4px 2px;top: 50%; color: rgb(119, 0, 255);
+
+}
+
+
+        
+        .hero-text {
+            
+            
+          color: rgb(0, 0, 0);
+          font-family: "Lucida Console", "Courier New", monospace;;
+          text-align: center;
+         
+          
+        }
+        .hero-text3 {
+            
+            
+            color: rgb(0, 0, 0);
+            font-family: "Lucida Console", "Courier New", monospace;;
+            text-align: center;
+          }
+
+        .hero-text2 {
+          top: 50%;
+          left: 30%;
+          color: rgb(0, 0, 0);
+          font-family: "Lucida Console", "Courier New", monospace;;
+        }
+
+        .sourcecode {
+          background-color: rgb(255, 208, 0);
+          font-family: "Lucida Console", "Courier New", monospace;
+        
+        }
+        .sourcecodec {
+          background-color: rgba(238, 147, 155, 0.911);
+          font-family: "Lucida Console", "Courier New", monospace;;
+        }
+        .sourcecodez {
+          background-color: rgb(154, 202, 135);
+          font-family: "Lucida Console", "Courier New", monospace;
+        }
+        .sourcecodef {
+          background-color: rgb(180, 142, 250);
+          font-family: "Lucida Console", "Courier New", monospace;;
+        }
+     
+
+        </style>
+        </head>
+        <body>
+          
+            <ul>
+    
+                <li><a href="https://novch.herokuapp.com/">Home</a></li>
+                <li><a href="https://novch.herokuapp.com/navod">How it works?</a></li>
+                <li><a href="https://novch.herokuapp.com/info">About my project</a></li>
+                <li style="float:right"><a class="active" href="https://www.facebook.com/IVT-pokus-110870364408593">Facebook</a></li>
+              </ul>
+
+              
+
+       
+          <div class="hero-text">
+
+              
+            <div class="hero-text2">
+            <h2>DOKUMENTACE K PROJEKTU</h2>   </div>
+            <div class="hero-text2">
+            <h3> Cíl práce </h3>
+              -	Vytvořit messenger Chatbota, připojeného k internetové stránce pro turisty, kteří jsou poprvé v Praze. 
+              <h3> Výběr tématu a zdůvodnění</h3>
+              -	Chtěla jsem zkusit něco nového a zároveň využít jazyk, který jsme se učili (alespoň základy - Jaca script) a také využít html a css na webovou stránku, což jsme probírali v semináři minulý rok. Abych tak jednak splnila téma a to ukázat co jsem se nauřili a zároveň zkusila udělat i něco s čím nemám zkušennosti.
+              
+              
+              <h3> Popis vytvářeného celku</h3>
+              <p>-	Jde o stránku pro turisty, kteří jsou poprvé v Praze a potřebují se zde zorientova. Stránka odkazuje na základní důležité stránky o Praze.
+              <p> - Hlavní částí projektu je messenger chatbot, připojený ke stránce. Chat se otevře pomocí messenger ikony v pravém dolním rohu. Chatbot  pomocí jednoduchých otázek a předprogramovaných možností odpovědí pomáhá s hladáním restarcae, transportem po městě nebo nápadem na výle. Pokud chatbot neví, odkáže uživatele na stránky pro turisty s více informacemi.
+              <p> - Celkem zatím chatbot umí odkázat na více než 30 růyných stránek, je rozdělen do 5 hlavních témat - transport, restaurace, výlety, výměna peněž a kultura.
+              <p> - Celá stránka včetně chatbota je v angličině.
+             
+             
+                <h3> Výběr prostředí, jazyků, technologií, paradigmat...</h3>
+              <p>	- Hlavním použitým jazykem je Java Script (note JS). Proto je většina kódu ve fromátu .js. Dále jsem požívala HTML, CSS na webové stránky, ty jsou ve formíátu ejs., který umožnůje propojit, právě html,css a JS, pomocí kterého je na stránku připojen chatbot.
+              <p> - Některé dotazy např. na připojená chatbota jsem dělala podle oficiálních facebook developers templatů, ketré mají na svých stránkách ukázané a vysvětlené.
+              <p>-	Pracovala jsem v prostředí Visual studio code. Stránku jsem nahrála na Heroku (Cloudovou platformu) a pomocí něj i napojila na facebook stránku a aplikaci přes facebook for developers.
+              
+              
+                <h3> Popis částí – souborů, složek, stránek, databáze, hlavních funkcÍ. </h3>
+              
+              
+            <p> -	Celý source code, který níže popíšu můžete najít na tomto odkazu na gitbub.
+              <p> -	Hlavní část tvoří kód v node.js. Je rozdělen do několika částí, keré blíže popíšu.  
+                    <p> - Na obrázku můžete vidět jak jsou spolu všechny části propojené. Ve zkratce (dále všechny rozebreru podrobněji).
+                      <div class="pzl">Žluté stránky jsou ve formátu .js. Jedná se o <b>chatbotControllers.js </b>- Zde najdeme připojení webhooku pro vstup i výstup a hlavní funkce pro ovládání chtabota. 
+                        <b>homepageControllers.js</b> - připojuje EJS stránky, <b>Web.js</b> - spojuje homepageControllers.js a ChatbotControllers.js jako fungující celek pomocí, ketrý lze poslat dál na server pomocí kterého se spustí.<b>Viewengine.js</b>, který zajišuje správné zobrazení<b>Server.js</b> data z Viewengine.js a Web.js jako jeden celek pošle buď na heroku nebo na localhosta. (Dále <b>profile.js</b> - připojuje profil uživatele)</div>
+                        <div class="pz">Zelené jsou strany ve fromátu ejs. Ty kombinují JS a HTML,CSS. Jedná se o stránky <b>homepage.ejs</b> - hlavní strana, <b>navod.ejs</b> - ukázka jak chatbota použít, <b>info.ejs</b> - dokumentace k projektu (tato strana) a <b>profile.ejs</b> - tu nakonec nepoužívám</div>
+                        <div class="pc">Červené části sloužily k připojení na <b>localhosta (konkr.8080)</b> - používala jsem je hlavně při testování webu, abych vše nemusela nahrávat pokaždé na webhosting, lépe se tak hledají chyby. Šlz by, ale z projektu vyjmout a stále by fungoval, proto je nebudu více popisovat. </div>
+                        <div class="pf">Fialové části se věnují připojení k webu. Nejprve musíme mít stránku <b>Procfile</b> se kterou umí Heroku pracovat, tato stránka pouze odkazuje na server.js. Díky tomu na aplikaci nahrajeme ne <b>Heroku</b> cloud. Heroku se spojí se stránkou na <b>facebookovou stránkou</b> a pomocí tokenů se sebou vzájemně komunikují, aby fungoval chatbot.</div>
+                    <div class="hero-text2"><img src=http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%206.png width="590" height="410"  alt="obrázek"  ></div>
+                    <br> <br>
+                    <br> <br>
+                   
+                   
+                    <b> <div class="pzl"> chatbotControllerts.js </div></b>
+                    
+                     <div class="sourcecode">
+                      <br>
+                        <p> -	ChatBotControllers.js je stránka která spojuje právě facebook a API s dotazy s mím kodem. Pracuju pomocí webhook aplikací atd. to vše je vidět na kódu. Jako výstup z ní jsou mimo jiné tedy výstupní i vstupní dotazy na Webhook - postWebhook a getWebhook.
+                         
+                          <p> - Některé dotazy, včetně těch připojovacích jsme si našla na facebook for developers, kde vysvětlují právě základy tvorby chtbota a proto jsem z ní hodně čerpala.
+                            <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%207.png" width="1180" height="820"  alt="obrázek" >   </div> 
+                        
+                            <p> - Nejvíce jsme se v celém projektu věnovala právě části tohoto kódu a to konkrétně funkci handle messages - která odesílá zpětnou vazbu na to když uživatel něco napíše.
+                              <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%208.png" width="1180" height="820"   alt="obrázek" >   </div> 
+                            
+                              <p>A funci handlePostabck. Ta tvoří prakticky celou komunikaci mého chatbota. Reaguje pomocí paylodu na akce jako kliknutí talčítka. Celý chatbot potom fuguje na principu payloadu, pomocí kterých vždy zareguje na to, na co uživatel klikne. 
+                             
+                             
+                                <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%209.png"  width="1180" height="820"  alt="obrázek" >   </div> 
+                              <p> Postabcky jsou napojené podle tohoto schématu. - Žlutě je vyznačeno pět hlavních kategorií a zeleně 30 odkazů ke kterým se uživatel může dostat.
+                                <div class="sourcecode"><img src="http://databazeturkova.unas.cz/GET_STARTED.png" width="1124" height="935"  alt="obrázek"  ></div>
+                                <p> - Poslední část toho to kódu potom tvoří připojení k API opět podle návodu. 
+                        </div> 
+                       
+                   
+
+                        <b> <br><div class="pzl">  homepageControllers.js</div></b>
+                    <div class="sourcecode"> <br>
+                      <p> - Připojuje ejs. stránky. Dále připojuje profil užiovatele (dá se využít, kdybych se k projektu chtěla vracet, zatím je to není potřeba, uživatel se přihlašuje jako host)
+                        <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2010.png"  width="580" height="410"  alt="obrázek" >   </div> 
+                      </div>
+                   
+
+
+                      <b>  <br> <div class="pzl"> Web.js </div></b>
+                      <div class="sourcecode"><br>
+                      <p> - Vsupy z homepageControllers a chatbotControllerts spojí do initwebroutes pro připojení na server. (Dále na něj bude odkazovat Server.js).
+                        <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2011.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                   </div>
+
+                   <b>  <br><div class="pzl"> ViewEngine.js </div></b>
+                   <div class="sourcecode"><br>
+                     <p> Zpracovává zobrazení.  </p> <br>
+                  </div>
+
+                  <b> <br><div class="pzl"> Server.js </div></b>
+                   <div class="sourcecode"><br>
+                     <p> Server kompletuje výstup z web.js a ViewEngine. Také se pomocí něj dá připojit na localhost adresu 8080. A odkaz v Procfile ho posílá na Heroku cloud.
+                      <div class="sourcecode"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2012.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                  </div>
+
+                  <b> <br><div class="pz"> homepage.ejs </div></b>
+                  <div class="sourcecodez"><br>
+                    <p> Klasická stránka. CSS styly jsou vepsány přímo v souboru nejsou externě připojovány kód je na githubu. Obrázky mám uložené na ecterním webhostingu. Zajímavou částí je připojení facebooku. To vám facebook sám vygeneruje.
+                      <div class="sourcecodez"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2014.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                 </div>
+
+                 <b> <br> <div class="pz"> navod.ejs </div></b>
+                  <div class="sourcecodez"><br>
+                    <p> Pouze vložený obrázek jako návod jak postupovat. Styl stejný jako homepage.ejs. Stránka je přístupná jedna pomocí horního menu u homepage. Také obsahuje chatbota.
+                    </p>  <br>  </div>
+
+                 <b> <br> <div class="pz"> profile.ejs </div></b>
+                 
+                  <div class="sourcecodez"><br>
+                    <p> Stránka pro přihlášení, ale nakonec ji nepoužívám, uživatel se přihlašuje jako host.
+                    </p>    <br>  </div>
+
+                 <b>  <br> <div class="pz"> info.ejs </div></b>
+                  <div class="sourcecodez"> <br>  
+                    <p> Tato stránka, jde pouze o popis a práci s css styly.
+                    </p>  <br>    </div>
+
+                 <b>  <br> <div class="pc"> localhost </div></b>
+                  <div class="sourcecodec"><br>
+                    <p> Vždy když jsem chtěla změnu na ejs. stránkách otestovat zadala jsem dotaz npm start - spustí se přes localhosta port 8080 pomocí nodemone.  </p> <br>
+                 </div>
+
+
+                 <b> <br> <div class="pf"> Profile </div></b>
+                   <div class="sourcecodef"><br>
+                     <p> S procfile se spojí Heroku a pomocí něj ví "co má dělat". Jediný kód odkazuje na server.js. "web:node src/server.js" </p>  <br> 
+                  </div>
+
+                  <b>  <br><div class="pf"> Heroku </div></b>
+                  <div class="sourcecodef"><br>
+                    <p> Nahrání na heroku probíhá během několika kroků. Nepjrpve se zaregistrujete na Heroku. Vytvoříte app. Následně se pomocí příkazu "heroku login" přihlásíte. Heroku vám samo vygenruje přihlašovací příkazy k vaší app (pomocí git). Pro tento upload je třeba mít nainstalovanou Heroku CLI.
+                    <p> Potom co je váš projektkt úspěšně připojen dá se kdykoliv aktualizovat (reuploadovat) pomocí git add., git commit heroku "text", git push heroku master.
+                      <div class="sourcecodef"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2015.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                 </div>
+
+                 <b> <br><div class="pf"> Facebook </div></b>
+                  <div class="sourcecodef"><br>
+                    <p>Na facebooku nejprve musíte vytvořit stránku.  <p>  <a href=https://www.facebook.com/IVT-pokus-110870364408593>Já konkrétně vytvořila tuhle stránku.</a></p> 
+                    <p>Pod stejným facebookovým účtěm pod kterým jste stráku zakládali je třeba se přihlásit na stránku facebook developers. Zde vytvoříte aplikace, tu propojíte se svojí stránkou na fecebooku. Vyberete, že se bude jednat o typ messenger.
+                      <div class="sourcecodef"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2016.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                      <p>  Následně je třeba připojit TOKENY, které propojí heroku a facebook. 
+                        <div class="sourcecodef"><img src="http://databazeturkova.unas.cz/3.hudba/Untitled_Artwork%2017.png"  width="590" height="420"  alt="obrázek" >   </div> 
+                 </div> 
+
+
+
+
+                 
+
+
+
+
+                    
+                  
+                 
+            <h3> Návod na zprovoznění, Návod k použití </h3>
+              <p><a href=https://novch.herokuapp.com.>Stránka se dá spustit jednoduše přes tento odkaz </a></p>
+              <p> Chatbot se zobrazí v pravém dolním roku, je nutné se přihlásit jako host. Jde o to, že než se někdo přihlásí pod svým profilem facebook musí chatbota zkontrolovat. O oprávnění bych mohla požádat, kdybych chtěla projekt opravdu používat jao chatbota pro turisty.
+                <p><a href=https://novch.herokuapp.com/navod>Přesný popis jak na to naleznete zde. </a></p>
+                <p>  <a href=https://www.facebook.com/IVT-pokus-110870364408593>Zároveň se na chatbota může každá připojit i přes tuto facebookovou stránku</a></p>
+
+
+             
+
+            </div>  
+
+            <div class="hero-text2"> 
+              <a href="https://www.facebook.com/IVT-pokus-110870364408593"><img src="http://databazeturkova.unas.cz/Untitled_Artwork-2.png" width="50" height="50" alt="obrázek"  ></a>
+          </div>  
+           
+                
+
+                    </div>
+                
+
+
+                
+            </div>
+          </div>
+        </div>
+
+
+    
